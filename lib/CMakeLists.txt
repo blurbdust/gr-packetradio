@@ -36,7 +36,7 @@ if(NOT packetradio_sources)
 endif(NOT packetradio_sources)
 
 add_library(gnuradio-packetradio SHARED ${packetradio_sources})
-target_link_libraries(gnuradio-packetradio ${Boost_LIBRARIES} ${GNURADIO_ALL_LIBRARIES})
+target_link_libraries(gnuradio-packetradio ${Boost_LIBRARIES} ${LOG4CPP_LIBRARIES} ${GNURADIO_ALL_LIBRARIES})
 set_target_properties(gnuradio-packetradio PROPERTIES DEFINE_SYMBOL "gnuradio_packetradio_EXPORTS")
 
 if(APPLE)
