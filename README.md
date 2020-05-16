@@ -13,7 +13,7 @@ This is an out-of-tree module for GNURadio to work with modern packet radio.
 2. `cd gr-packetradio`
 3. `mkdir build`
 4. `cd build/`
-5. `cmake ../`
+5. `cmake .. -DGNURADIO_ALL_INCLUDE_DIRS=/usr/include/gnuradio/swig`
 6. `make`
 7. `sudo make install`
 8. `sudo ldconfig`

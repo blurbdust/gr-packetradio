@@ -17,8 +17,8 @@
 # the Free Software Foundation, Inc., 51 Franklin Street,
 # Boston, MA 02110-1301, USA.
 install(FILES
-    packetradio_ax25_protocol_encode.xml
-    packetradio_nrzi_encoder.xml
-    packetradio_bell_202_modem.xml
-    packetradio_hdlc_framer_ax25.xml DESTINATION share/gnuradio/grc/blocks
+    packetradio_ax25_protocol_encode.block.yml
+    packetradio_nrzi_encoder.block.yml
+    packetradio_bell_202_modem.block.yml
+    packetradio_hdlc_framer_ax25.block.yml DESTINATION share/gnuradio/grc/blocks
 )
